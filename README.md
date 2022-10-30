@@ -50,3 +50,7 @@ export const text = [
 `https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Lorem%20ipsum%20app%20page`
 
 ## Video
+
+
+https://user-images.githubusercontent.com/99032604/198900819-ac2bbb47-341c-427e-b0ff-2b2f86546bda.mp4
+
