@@ -53,7 +53,7 @@ export const text = [
 ];
 ```
 
-The application logic is located in the `App.js` component. Basically we have two states a state called `paragraphs` which is where all the paragraphs that we want to search will be stored and the `count` state that will represent the value of the input each time `Generate` is touched. In addition each time that the `Generate` button is touched the `handleSubmit()` function will be executed and it will receive the event and it will modify a variable called `count` to the value entered. Then through a for in which each iteration will return a random paragraph to the new array. And at the end we will modify the state of `paragraphs` to the new array:
+The application logic is located in the `App.js` component. Basically we have two states a state called `paragraphs` which is where all the paragraphs that we want to search will be stored and the `count` state that will represent the value of the input each time `Generate` is touched. In addition each time that the `Generate` button is touched the `handleSubmit()` function will be executed and it will receive the event and it will modify a variable called `amount` to the value entered. Then through a for in which each iteration will return a random paragraph to the new array. And at the end we will modify the state of `paragraphs` to the new array:
 
 ```
 const [paragraphs, setParagraphs] = useState([]);
