@@ -10,17 +10,16 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    let amount = parseInt(count);
+    const newArray = [];
+    const amount = parseInt(count);
 
     if (amount <= 0) {
       amount = 1;
     }
 
-    if (amount >= 8) {
-      amount = 8;
+    for (let i = 0; i < amount; i++) {
+      newArray.push(text[Math.floor(Math.random() * text.length)]);
     }
-
-    const newArray = text.slice(0, amount);
 
     setParagraphs(newArray);
   };
