@@ -28,7 +28,7 @@ I made a web application that generates lorem ipsum paragraphs each time the use
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Lorem%20ipsum%20app%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Lorem%20Ipsum%20App%20Page`
 
 ## Video
 
