@@ -16,20 +16,6 @@ I made a web application that generates lorem ipsum paragraphs each time the use
 1. React JS
 2. CSS3
 
-## Galery
-
-![Lorem-ipsum-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/loremreact-0.jpg)
-
-![Lorem-ipsum-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/loremreact-1.jpg)
-
-![Lorem-ipsum-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/loremreact-2.jpg)
-
-![Lorem-ipsum-App-Page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/loremreact-3.jpg)
-
-## Portfolio Link
-
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Lorem%20Ipsum%20App%20Page`
-
 ## Video
 
 https://user-images.githubusercontent.com/99032604/198900819-ac2bbb47-341c-427e-b0ff-2b2f86546bda.mp4
