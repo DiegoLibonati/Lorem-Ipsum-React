@@ -14,7 +14,8 @@ I made a web application that generates lorem ipsum paragraphs each time the use
 ## Technologies used
 
 1. React JS
-2. CSS3
+2. Typescript
+3. CSS3
 
 ## Video
 
@@ -22,10 +23,10 @@ https://user-images.githubusercontent.com/99032604/198900819-ac2bbb47-341c-427e-
 
 ## Documentation
 
-From `helpers/texts.js` we get all the paragraphs, if you want to add a new paragraph you can do it by adding a new element here:
+From `helpers/texts.ts` we get all the paragraphs, if you want to add a new paragraph you can do it by adding a new element here:
 
 ```
-export const text = [
+export const texts: string[] = [
   `I'm baby intelligentsia hot chicken iPhone, letterpress food truck lomo roof party celiac +1 photo booth yr thundercats affogato. Poke pork belly PBR&B, vape fashion axe hashtag chillwave brooklyn cloud bread marfa cold-pressed adaptogen. Ennui tilde fam, chicharrones irony you probably haven't heard of them raclette poutine. Intelligentsia seitan chicharrones, enamel pin brunch vaporware art party kitsch retro. Vegan sustainable tumeric cronut. Pug aesthetic PBR&B glossier selvage, art party salvia wayfarers. Etsy taiyaki typewriter chicharrones, taxidermy cold-pressed pabst vinyl cronut pok pok 8-bit fam.`,
   `Activated charcoal direct trade palo santo vape everyday carry pork belly mustache kitsch gochujang. Vexillologist shoreditch deep v, keytar ethical seitan sartorial kale chips irony tumeric microdosing brunch. Keffiyeh master cleanse next level, glossier lumbersexual shaman af edison bulb distillery knausgaard vape small batch portland. Cred truffaut vape deep v +1, gastropub hot chicken raw denim helvetica umami offal.`,
   `Dreamcatcher sartorial asymmetrical crucifix wolf godard, coloring book squid freegan affogato lumbersexual franzen. Drinking vinegar vape chillwave pinterest tofu pug hella sartorial neutra cray tumeric. Poke cloud bread XOXO salvia. Glossier jean shorts craft beer gastropub, squid pitchfork humblebrag listicle taiyaki messenger bag retro thundercats subway tile raw denim. Hoodie asymmetrical food truck listicle pour-over.`,
@@ -39,24 +40,24 @@ export const text = [
 ];
 ```
 
-The application logic is located in the `App.js` component. Basically we have two states a state called `paragraphs` which is where all the paragraphs that we want to search will be stored and the `count` state that will represent the value of the input each time `Generate` is touched. In addition each time that the `Generate` button is touched the `handleSubmit()` function will be executed and it will receive the event and it will modify a variable called `amount` to the value entered. Then through a for in which each iteration will return a random paragraph to the new array. And at the end we will modify the state of `paragraphs` to the new array:
+The application logic is located in the `App.ts` component. Basically we have two states a state called `paragraphs` which is where all the paragraphs that we want to search will be stored and the `count` state that will represent the value of the input each time `Generate` is touched. In addition each time that the `Generate` button is touched the `handleSubmit()` function will be executed and it will receive the event and it will modify a variable called `amount` to the value entered. Then through a for in which each iteration will return a random paragraph to the new array. And at the end we will modify the state of `paragraphs` to the new array:
 
 ```
-const [paragraphs, setParagraphs] = useState([]);
-const [count, setCount] = useState(0);
+const [paragraphs, setParagraphs] = useState<string[]>([]);
+const [count, setCount] = useState<number>(0);
 
-const handleSubmit = (e) => {
+const handleSubmit: React.FormEventHandler<HTMLFormElement> = (e) => {
   e.preventDefault();
 
-  const newArray = [];
-  const amount = parseInt(count);
+  const newArray: string[] = [];
+  let amount: number = count;
 
   if (amount <= 0) {
     amount = 1;
   }
 
-  for (let i = 0; i < amount; i++) {
-    newArray.push(text[Math.floor(Math.random() * text.length)]);
+  for (let i: number = 0; i < amount; i++) {
+    newArray.push(texts[Math.floor(Math.random() * texts.length)]);
   }
 
   setParagraphs(newArray);
