@@ -23,7 +23,7 @@ I made a web application that generates lorem ipsum paragraphs each time the use
 
 ## Video
 
-https://user-images.githubusercontent.com/99032604/198900819-ac2bbb47-341c-427e-b0ff-2b2f86546bda.mp4
+https://github.com/DiegoLibonati/Lorem-Ipsum-App-Page/assets/99032604/b245bff6-b104-4120-9398-05c8419d1546
 
 ## Documentation
 
