@@ -32,7 +32,6 @@ function App() {
           <h2>TIRED OF BORING LOREM IPSUM?</h2>
 
           <form onSubmit={(e) => handleSubmit(e)}>
-            <label>Paragraphs: </label>
             <input
               type="number"
               onChange={(e) => setCount(parseInt(e.target.value))}

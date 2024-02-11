@@ -57,24 +57,24 @@ body {
   height: auto;
 }
 
-.header_container form label {
-  font-size: 2rem;
-  margin-right: 1rem;
-}
-
 .header_container input {
   width: 6rem;
   outline: none;
   font-size: 2rem;
+  height: 4rem;
 }
 
 .header_container button {
   margin-left: 1rem;
-  padding: 1rem;
   background: #09f;
   border: none;
   font-size: 2rem;
   color: #fff;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  outline: none;
 }
 
 p {

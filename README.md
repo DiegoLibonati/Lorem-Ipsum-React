@@ -17,6 +17,10 @@ I made a web application that generates lorem ipsum paragraphs each time the use
 2. Typescript
 3. CSS3
 
+## Portfolio Link
+
+[`https://www.diegolibonati.com.ar/#/project/102`](https://www.diegolibonati.com.ar/#/project/102)
+
 ## Video
 
 https://user-images.githubusercontent.com/99032604/198900819-ac2bbb47-341c-427e-b0ff-2b2f86546bda.mp4
