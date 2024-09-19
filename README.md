@@ -1,4 +1,4 @@
-# Lorem-Ipsum-App-Page
+# Lorem Ipsum React
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ I made a web application that generates lorem ipsum paragraphs each time the use
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/102`](https://www.diegolibonati.com.ar/#/project/102)
+[`https://www.diegolibonati.com.ar/#/project/Lorem-Ipsum-React`](https://www.diegolibonati.com.ar/#/project/Lorem-Ipsum-React)
 
 ## Video
 
